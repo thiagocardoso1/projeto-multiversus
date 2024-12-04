@@ -16,14 +16,11 @@
 
 .s-wrapper video {
   width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
   position: fixed;
-}
-
-@media screen and (max-width: 1678px) {
-  .s-wrapper video {
-    height: 100%;
-    width: auto;
-  }
 }
 
 /* LEFT COLUMN */
