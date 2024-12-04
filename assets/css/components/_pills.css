@@ -1,0 +1,16 @@
+.s-description .pills ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.s-description .pills ul li {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 5px 15px;
+  margin: 0 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+
+  flex: auto;
+  margin: 4px;
+}
